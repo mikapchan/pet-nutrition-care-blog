@@ -13,24 +13,97 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	<body>
 		<Header />
 		<main>
-			<h1>🐾 愛犬・愛猫の食事と健康を、専門知識でサポートします</h1>
-			<p>
-				はじめまして、ペット栄養アドバイザーのミカです。このブログでは、犬・猫の療法食や栄養管理について、専門的な視点からわかりやすく解説しています。
-			</p>
-			<p>
-				「うちの子に合った食事って何？」「療法食って本当に必要？」そんな疑問に、正確な情報でお答えします。
-			</p>
-			<h2>このブログでわかること</h2>
-			<ul>
-				<li>犬・猫の療法食の選び方・使い方</li>
-				<li>病気別の食事管理（腎臓病・糖尿病・アレルギーなど）</li>
-				<li>ペットフードの成分の正しい読み方</li>
-				<li>栄養バランスのとれた食事の作り方</li>
-			</ul>
-			<p>
-				<a href="/blog">記事一覧はこちら →</a>
-			</p>
+			<section class="hero">
+				<p class="hero-label">🐾 ペット栄養アドバイザー ミカ の専門ブログ</p>
+				<h1>愛犬・愛猫の食事と健康を<br>正しい知識でサポート</h1>
+				<p class="hero-sub">ドッグフード・キャットフードの選び方から療法食・栄養管理まで、専門的な視点からわかりやすく解説します。</p>
+				<a href="/blog" class="hero-btn">記事を読む →</a>
+			</section>
+
+			<section class="features">
+				<h2>このブログでわかること</h2>
+				<div class="feature-grid">
+					<div class="feature-card">
+						<span class="feature-icon">🍖</span>
+						<h3>フードの選び方</h3>
+						<p>原材料表示の読み方や成分の見極め方を解説</p>
+					</div>
+					<div class="feature-card">
+						<span class="feature-icon">🏥</span>
+						<h3>療法食・病気別食事管理</h3>
+						<p>腎臓病・糖尿病・アレルギーなど病気に合わせた食事</p>
+					</div>
+					<div class="feature-card">
+						<span class="feature-icon">⚖️</span>
+						<h3>栄養バランス</h3>
+						<p>年齢・体型・健康状態に合った栄養管理の方法</p>
+					</div>
+				</div>
+			</section>
 		</main>
+
+		<style>
+			.hero {
+				text-align: center;
+				padding: 4rem 1rem 3rem;
+				background: linear-gradient(135deg, #f0f9f0 0%, #e8f4fd 100%);
+				border-radius: 12px;
+				margin: 2rem 0;
+			}
+			.hero-label {
+				font-size: 0.9rem;
+				color: #666;
+				margin-bottom: 1rem;
+			}
+			.hero h1 {
+				font-size: 2rem;
+				line-height: 1.4;
+				margin: 0.5rem 0 1rem;
+				color: #1a1a2e;
+			}
+			.hero-sub {
+				font-size: 1rem;
+				color: #555;
+				max-width: 500px;
+				margin: 0 auto 1.5rem;
+				line-height: 1.7;
+			}
+			.hero-btn {
+				display: inline-block;
+				background: #4a9b6f;
+				color: white;
+				padding: 0.75rem 2rem;
+				border-radius: 8px;
+				text-decoration: none;
+				font-weight: bold;
+				transition: background 0.2s;
+			}
+			.hero-btn:hover { background: #3a7d58; }
+			.features {
+				padding: 2rem 0;
+			}
+			.features h2 {
+				text-align: center;
+				font-size: 1.3rem;
+				margin-bottom: 1.5rem;
+				color: #333;
+			}
+			.feature-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+				gap: 1.5rem;
+			}
+			.feature-card {
+				background: white;
+				border: 1px solid #e8e8e8;
+				border-radius: 10px;
+				padding: 1.5rem;
+				text-align: center;
+			}
+			.feature-icon { font-size: 2rem; }
+			.feature-card h3 { font-size: 1rem; margin: 0.75rem 0 0.5rem; }
+			.feature-card p { font-size: 0.85rem; color: #666; line-height: 1.6; margin: 0; }
+		</style>
 		<Footer />
 	</body>
 </html>
