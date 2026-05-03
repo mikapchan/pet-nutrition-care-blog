@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <!-- 背景 -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f9f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8f4fd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="16"/>
+
+  <!-- ドッグフードのボウル -->
+  <ellipse cx="400" cy="310" rx="130" ry="30" fill="#d4a574" opacity="0.4"/>
+  <path d="M270 280 Q400 320 530 280 L520 300 Q400 340 280 300 Z" fill="#c8956b"/>
+  <ellipse cx="400" cy="278" rx="130" ry="28" fill="#e8b896"/>
+  <!-- ドッグフード粒 -->
+  <circle cx="370" cy="272" r="12" fill="#8B4513"/>
+  <circle cx="400" cy="268" r="12" fill="#A0522D"/>
+  <circle cx="430" cy="272" r="12" fill="#8B4513"/>
+  <circle cx="385" cy="285" r="10" fill="#A0522D"/>
+  <circle cx="415" cy="285" r="10" fill="#8B4513"/>
+  <!-- ボウルの縁 -->
+  <ellipse cx="400" cy="278" rx="130" ry="28" fill="none" stroke="#c8956b" stroke-width="4"/>
+
+  <!-- 犬のイラスト（シンプル） -->
+  <!-- 体 -->
+  <ellipse cx="220" cy="260" rx="70" ry="55" fill="#F5DEB3"/>
+  <!-- 頭 -->
+  <circle cx="220" cy="185" r="52" fill="#F5DEB3"/>
+  <!-- 耳（左） -->
+  <ellipse cx="182" cy="158" rx="22" ry="32" fill="#DEB887" transform="rotate(-15 182 158)"/>
+  <!-- 耳（右） -->
+  <ellipse cx="258" cy="158" rx="22" ry="32" fill="#DEB887" transform="rotate(15 258 158)"/>
+  <!-- 目（左） -->
+  <circle cx="203" cy="182" r="10" fill="#333"/>
+  <circle cx="206" cy="179" r="3" fill="white"/>
+  <!-- 目（右） -->
+  <circle cx="237" cy="182" r="10" fill="#333"/>
+  <circle cx="240" cy="179" r="3" fill="white"/>
+  <!-- 鼻 -->
+  <ellipse cx="220" cy="200" rx="10" ry="7" fill="#333"/>
+  <!-- 口 -->
+  <path d="M210 210 Q220 220 230 210" fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- しっぽ -->
+  <path d="M285 240 Q330 200 320 170" fill="none" stroke="#F5DEB3" stroke-width="14" stroke-linecap="round"/>
+  <!-- 前足 -->
+  <ellipse cx="185" cy="315" rx="18" ry="28" fill="#F5DEB3"/>
+  <ellipse cx="255" cy="315" rx="18" ry="28" fill="#F5DEB3"/>
+
+  <!-- ハートマーク -->
+  <path d="M560 120 C560 110 550 100 540 110 C530 100 520 110 520 120 C520 135 540 150 540 150 C540 150 560 135 560 120 Z" fill="#ff8fab" opacity="0.8"/>
+  <path d="M630 80 C630 72 622 65 614 72 C606 65 598 72 598 80 C598 92 614 104 614 104 C614 104 630 92 630 80 Z" fill="#ff8fab" opacity="0.5"/>
+
+  <!-- テキスト -->
+  <text x="400" y="390" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="#3a7d58">ドッグフードの原材料表示の正しい読み方</text>
+  <text x="400" y="418" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#666">ペット栄養アドバイザー ミカ</text>
+</svg>
