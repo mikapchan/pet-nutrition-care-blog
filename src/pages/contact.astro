@@ -8,10 +8,8 @@ const title = 'お問い合わせ';
 const description = 'ペット栄養ケアラボへのご質問・ご相談・記事リクエストなどお気軽にどうぞ。';
 
 // Formspreeのフォームエンドポイント
-// 使い方: https://formspree.io で無料アカウントを作成し、
-// 発行されたフォームIDを FORMSPREE_ID として Cloudflare の Secrets に設定してください。
-// 暫定でenv変数から読み込み（未設定の場合はフォームを非表示にします）
-const formspreeId = import.meta.env.FORMSPREE_ID ?? '';
+// ※ FormspreeのフォームIDはHTML上に表示される公開情報のため、ここに直接記述しています
+const formspreeId = 'xpqbgjeg';
 ---
 
 <!doctype html>
