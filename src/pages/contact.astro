@@ -1,0 +1,309 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+
+const title = 'お問い合わせ';
+const description = 'ペット栄養ケアラボへのご質問・ご相談・記事リクエストなどお気軽にどうぞ。';
+
+// Formspreeのフォームエンドポイント
+// 使い方: https://formspree.io で無料アカウントを作成し、
+// 発行されたフォームIDを FORMSPREE_ID として Cloudflare の Secrets に設定してください。
+// 暫定でenv変数から読み込み（未設定の場合はフォームを非表示にします）
+const formspreeId = import.meta.env.FORMSPREE_ID ?? '';
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <BaseHead title={`${title} | ${SITE_TITLE}`} description={description} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="contact-page">
+
+        <!-- ページヘッダー -->
+        <div class="page-header">
+          <span class="page-icon">💌</span>
+          <h1>お問い合わせ</h1>
+          <p>ご質問・ご相談・記事リクエストなど、お気軽にご連絡ください。<br>フードや栄養に関することなら何でも歓迎です。</p>
+        </div>
+
+        <!-- お問い合わせ種別カード -->
+        <div class="type-grid">
+          <div class="type-card">
+            <span>🐶</span>
+            <h3>フード・栄養相談</h3>
+            <p>「うちの子に合うフードは？」「この成分って大丈夫？」など</p>
+          </div>
+          <div class="type-card">
+            <span>📝</span>
+            <h3>記事リクエスト</h3>
+            <p>「〇〇について詳しく書いてほしい」などのリクエスト</p>
+          </div>
+          <div class="type-card">
+            <span>🔔</span>
+            <h3>記事の修正・ご指摘</h3>
+            <p>内容の誤りや気になる点があればお知らせください</p>
+          </div>
+        </div>
+
+        <!-- フォーム本体 -->
+        {formspreeId ? (
+          <div class="form-wrap">
+            <form
+              action={`https://formspree.io/f/${formspreeId}`}
+              method="POST"
+              class="contact-form"
+              id="contact-form"
+            >
+              <div class="field-group">
+                <label for="name">お名前 <span class="required">必須</span></label>
+                <input type="text" id="name" name="name" placeholder="例：山田 太郎" required />
+              </div>
+
+              <div class="field-group">
+                <label for="email">メールアドレス <span class="required">必須</span></label>
+                <input type="email" id="email" name="email" placeholder="例：example@email.com" required />
+              </div>
+
+              <div class="field-group">
+                <label for="subject">件名 <span class="required">必須</span></label>
+                <input type="text" id="subject" name="subject" placeholder="例：猫のフード選びについて" required />
+              </div>
+
+              <div class="field-group">
+                <label for="message">メッセージ <span class="required">必須</span></label>
+                <textarea id="message" name="message" rows="7" placeholder="ご質問の内容をご記入ください。&#10;&#10;例：7歳のトイプードルを飼っています。最近食欲が落ちてきて、フードの見直しを考えています。腎臓の数値が少し高めなのですが、療法食にすべきでしょうか？" required></textarea>
+              </div>
+
+              <!-- スパム対策（ハニーポット） -->
+              <input type="text" name="_gotcha" style="display:none" />
+
+              <div class="form-note">
+                <p>📌 返信は通常2〜5営業日以内を目安にしています。医療的な診断・治療のアドバイスはお答えできません。</p>
+              </div>
+
+              <button type="submit" class="submit-btn">送信する →</button>
+            </form>
+
+            <!-- 送信完了メッセージ（JS制御） -->
+            <div class="success-msg" id="success-msg" aria-live="polite">
+              <span>✅</span>
+              <h2>送信完了しました！</h2>
+              <p>お問い合わせありがとうございます。<br>2〜5営業日以内にご返信いたします。</p>
+            </div>
+          </div>
+        ) : (
+          <!-- Formspree未設定時の案内 -->
+          <div class="setup-notice">
+            <p>⚙️ <strong>管理者の方へ：</strong> お問い合わせフームを有効にするには、<a href="https://formspree.io" target="_blank" rel="noopener">Formspree</a> で無料アカウントを作成し、フォームIDを <code>FORMSPREE_ID</code> 環境変数に設定してください。</p>
+          </div>
+        )}
+
+      </div>
+    </main>
+
+    <script>
+      const form = document.getElementById('contact-form') as HTMLFormElement | null;
+      const successMsg = document.getElementById('success-msg') as HTMLElement | null;
+
+      if (form && successMsg) {
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const btn = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+          btn.disabled = true;
+          btn.textContent = '送信中...';
+
+          try {
+            const res = await fetch(form.action, {
+              method: 'POST',
+              body: new FormData(form),
+              headers: { Accept: 'application/json' },
+            });
+
+            if (res.ok) {
+              form.style.display = 'none';
+              successMsg.style.display = 'block';
+            } else {
+              btn.disabled = false;
+              btn.textContent = '送信する →';
+              alert('送信に失敗しました。お手数ですが時間をおいて再度お試しください。');
+            }
+          } catch {
+            btn.disabled = false;
+            btn.textContent = '送信する →';
+            alert('通信エラーが発生しました。インターネット接続を確認してください。');
+          }
+        });
+      }
+    </script>
+
+    <style>
+      .contact-page {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 2rem 0 4rem;
+      }
+
+      /* ===== ページヘッダー ===== */
+      .page-header {
+        text-align: center;
+        margin-bottom: 2.5rem;
+      }
+      .page-icon {
+        font-size: 2.5rem;
+        display: block;
+        margin-bottom: 0.6rem;
+      }
+      .page-header h1 {
+        font-size: 1.8rem;
+        color: #1a2e1a;
+        margin: 0 0 0.8rem;
+      }
+      .page-header p {
+        color: #555;
+        line-height: 1.8;
+        margin: 0;
+      }
+
+      /* ===== 種別カード ===== */
+      .type-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1rem;
+        margin-bottom: 2.5rem;
+      }
+      .type-card {
+        background: white;
+        border: 1px solid #e4ede9;
+        border-radius: 12px;
+        padding: 1.2rem;
+        text-align: center;
+      }
+      .type-card span { font-size: 1.8rem; display: block; margin-bottom: 0.5rem; }
+      .type-card h3 { font-size: 0.95rem; color: #1a2e1a; margin: 0 0 0.4rem; }
+      .type-card p { font-size: 0.82rem; color: #666; margin: 0; line-height: 1.5; }
+
+      /* ===== フォーム ===== */
+      .form-wrap {
+        background: white;
+        border: 1px solid #e4ede9;
+        border-radius: 16px;
+        padding: 2rem;
+        box-shadow: 0 2px 12px rgba(74, 155, 111, 0.07);
+      }
+      .contact-form { display: flex; flex-direction: column; gap: 1.4rem; }
+      .field-group { display: flex; flex-direction: column; gap: 0.4rem; }
+      .field-group label {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #333;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+      .required {
+        font-size: 0.72rem;
+        background: #4a9b6f;
+        color: white;
+        padding: 0.1rem 0.4rem;
+        border-radius: 4px;
+        font-weight: normal;
+      }
+      .field-group input,
+      .field-group textarea {
+        width: 100%;
+        padding: 0.7rem 0.9rem;
+        border: 1px solid #d1e4da;
+        border-radius: 8px;
+        font-size: 0.95rem;
+        font-family: inherit;
+        color: #333;
+        background: #fafcfb;
+        transition: border-color 0.2s, box-shadow 0.2s;
+        box-sizing: border-box;
+        resize: vertical;
+      }
+      .field-group input:focus,
+      .field-group textarea:focus {
+        outline: none;
+        border-color: #4a9b6f;
+        box-shadow: 0 0 0 3px rgba(74, 155, 111, 0.12);
+        background: white;
+      }
+      .field-group input::placeholder,
+      .field-group textarea::placeholder { color: #aaa; }
+
+      .form-note {
+        background: #f8fdf9;
+        border-left: 3px solid #4a9b6f;
+        border-radius: 0 8px 8px 0;
+        padding: 0.8rem 1rem;
+      }
+      .form-note p {
+        font-size: 0.85rem;
+        color: #555;
+        margin: 0;
+        line-height: 1.6;
+      }
+
+      .submit-btn {
+        display: inline-block;
+        background: #4a9b6f;
+        color: white;
+        border: none;
+        padding: 0.9rem 2.5rem;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.2s, transform 0.1s;
+        box-shadow: 0 2px 8px rgba(74, 155, 111, 0.3);
+        align-self: flex-start;
+      }
+      .submit-btn:hover:not(:disabled) {
+        background: #3a7d58;
+        transform: translateY(-1px);
+      }
+      .submit-btn:disabled { opacity: 0.7; cursor: not-allowed; }
+
+      /* ===== 送信完了 ===== */
+      .success-msg {
+        display: none;
+        text-align: center;
+        padding: 2rem 1rem;
+      }
+      .success-msg span { font-size: 3rem; display: block; margin-bottom: 1rem; }
+      .success-msg h2 { color: #4a9b6f; margin: 0 0 0.8rem; }
+      .success-msg p { color: #555; margin: 0; line-height: 1.8; }
+
+      /* ===== 未設定通知 ===== */
+      .setup-notice {
+        background: #fffbea;
+        border: 1px solid #f0d080;
+        border-radius: 12px;
+        padding: 1.2rem 1.5rem;
+      }
+      .setup-notice p { font-size: 0.9rem; color: #555; margin: 0; }
+      .setup-notice a { color: #4a9b6f; }
+      .setup-notice code {
+        background: #f0ece0;
+        padding: 0.1rem 0.4rem;
+        border-radius: 4px;
+        font-size: 0.85rem;
+      }
+
+      /* ===== レスポンシブ ===== */
+      @media (max-width: 720px) {
+        .form-wrap { padding: 1.4rem; }
+        .type-grid { grid-template-columns: 1fr; }
+        .submit-btn { width: 100%; text-align: center; }
+      }
+    </style>
+
+    <Footer />
+  </body>
+</html>
