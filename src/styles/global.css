@@ -285,6 +285,20 @@ hr {
   margin-top: 4px;
 }
 .rakuten-buy-btn:hover { background: #990000; }
+.info-buy-btn {
+  display: inline-block !important;
+  background: #4a9b6f;
+  color: #fff !important;
+  font-size: 0.82rem !important;
+  font-weight: bold;
+  padding: 6px 16px;
+  border-radius: 16px;
+  text-decoration: none !important;
+  text-align: center;
+  width: fit-content;
+  margin-top: 4px;
+}
+.info-buy-btn:hover { background: #3a7d58; }
 @media (max-width: 520px) {
   .rakuten-widget { flex-direction: column; }
   .rakuten-widget img { width: 100%; height: auto; }

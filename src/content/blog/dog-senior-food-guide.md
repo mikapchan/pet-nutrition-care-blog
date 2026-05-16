@@ -122,7 +122,7 @@ heroImage: '/images/senior-dog-food-hero.png'
 5. 7歳になったら健康診断と合わせてフードを見直す
 </div>
 
-大切な家族の一員であるシニア犬に、その年齢と健康状態に合ったフードを選んであげましょう。疑問があればお気軽に[お問い合わせ](/contact)ください。🐾
+大切な家族の一員であるシニア犬に、その年齢と健康状態に合ったフードを選んであげましょう。
 
 <div class="reference-box">
 <span class="box-title">📚 参考文献・情報源</span>
