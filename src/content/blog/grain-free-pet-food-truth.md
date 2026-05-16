@@ -98,13 +98,14 @@ FDA調査との関係：
 </div>
 
 <div class="rakuten-widget">
-  <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Fnb_spv_5%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
-    <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/albiot/cabinet/nb_new/nb-d-dry/nnb-d-shika-repk.jpg?_ex=128x128" alt="ナチュラルバランス LID RESERVE スイートポテト＆鹿肉レシピ ドッグフード ドライフード （旧スウィートポテト...">
+  <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Facn-pfd-25%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
+    <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/albiot/cabinet/acana/renewal/aca-pacifica-pkimg.jpg?_ex=128x128" alt="アカナ パシフィカドッグレシピ ドッグフード">
   </a>
   <div class="rakuten-widget-info">
-    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Fnb_spv_5%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">ナチュラルバランス LID RESERVE スイートポテト＆鹿肉レシピ ドッグフード ドライフード （旧スウィートポテト...</a>
-    <p class="rakuten-widget-price">価格：2,899円（税込）</p>
-    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Fnb_spv_5%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" class="rakuten-buy-btn">楽天で購入</a>
+    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Facn-pfd-25%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">アカナ パシフィカドッグレシピ ドッグフード</a>
+    <p class="rakuten-widget-price">価格：7,370円（税込）</p>
+    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Facn-pfd-25%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" class="rakuten-buy-btn">楽天で購入</a>
   </div>
 </div>
 <p class="cta-note">※ 楽天市場へのリンクです（アフィリエイト）</p>
+

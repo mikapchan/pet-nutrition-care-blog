@@ -107,13 +107,14 @@ heroImage: '/images/cat-weight-hero.png'
 </div>
 
 <div class="rakuten-widget">
-  <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdog-kan%2F9217201%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
-    <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/dog-kan/cabinet/hills/20hills2026/9217201.jpg?_ex=128x128" alt="【20％クーポン対象！9日〜20日】ストルバイト 猫 療法食 ヒルズ c/d マルチケア チキン 4kg 尿ケア 猫用 ...">
+  <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Facn-wpc-400%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
+    <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/albiot/cabinet/acana/renewal/aca-wildpcat-pkimg.jpg?_ex=128x128" alt="アカナ ワイルドプレイリーキャット キャットフード">
   </a>
   <div class="rakuten-widget-info">
-    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdog-kan%2F9217201%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">【20％クーポン対象！9日〜20日】ストルバイト 猫 療法食 ヒルズ c/d マルチケア チキン 4kg 尿ケア 猫用 ...</a>
-    <p class="rakuten-widget-price">価格：11,110円（税込）</p>
-    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdog-kan%2F9217201%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" class="rakuten-buy-btn">楽天で購入</a>
+    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Facn-wpc-400%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">アカナ ワイルドプレイリーキャット キャットフード</a>
+    <p class="rakuten-widget-price">価格：1,386円（税込）</p>
+    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Facn-wpc-400%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" class="rakuten-buy-btn">楽天で購入</a>
   </div>
 </div>
 <p class="cta-note">※ 楽天市場へのリンクです（アフィリエイト）</p>
+

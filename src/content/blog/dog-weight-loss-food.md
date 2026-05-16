@@ -119,13 +119,14 @@ RER（安静時エネルギー必要量） = 70 × 体重（kg）^0.75
 </div>
 
 <div class="rakuten-widget">
-  <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Fnh_fl_2%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
-    <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/albiot/cabinet/n_nh/renew2024/nh-rgmschi-pkimgre.jpg?_ex=128x128" alt="ナチュラルハーベスト レジーム スモール [チキン] (標準粒＝中粒) ドッグフード 犬 ドライフード">
+  <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdogparadise%2F4573160558064%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
+    <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/dogparadise/cabinet/ad_cart/math/01/4573160558064.jpg?_ex=128x128" alt="GO!ゴー ソリューションズ センシティブLID サーモン 2.3kg 犬 ドッグ フード ドック グレインフリー 穀物...">
   </a>
   <div class="rakuten-widget-info">
-    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Fnh_fl_2%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">ナチュラルハーベスト レジーム スモール [チキン] (標準粒＝中粒) ドッグフード 犬 ドライフード</a>
-    <p class="rakuten-widget-price">価格：220円（税込）</p>
-    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Fnh_fl_2%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" class="rakuten-buy-btn">楽天で購入</a>
+    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdogparadise%2F4573160558064%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">GO!ゴー ソリューションズ センシティブLID サーモン 2.3kg 犬 ドッグ フード ドック グレインフリー 穀物...</a>
+    <p class="rakuten-widget-price">価格：5,170円（税込）</p>
+    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdogparadise%2F4573160558064%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" class="rakuten-buy-btn">楽天で購入</a>
   </div>
 </div>
 <p class="cta-note">※ 楽天市場へのリンクです（アフィリエイト）</p>
+

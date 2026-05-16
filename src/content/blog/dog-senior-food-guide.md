@@ -135,13 +135,14 @@ heroImage: '/images/senior-dog-food-hero.png'
 </div>
 
 <div class="rakuten-widget">
-  <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdogparadise%2F8133690054908%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
-    <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/dogparadise/cabinet/ad_cart/math/01/8133690054908.jpg?_ex=128x128" alt="【要エントリー!5/15限定最大100％Pバック+さらにP5倍】アーテミス アガリクスI/S 小粒 3kg ドッグ ドッ...">
+  <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-sakurasow%2F10000769%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
+    <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/auc-sakurasow/cabinet/imgrc0112502967.jpg?_ex=128x128" alt="【20日限定エントリー＆抽選でP100％＋クーポン】【アウトレット賞味期限印字不良】アカナ　シニアレシピ　11.4kg【...">
   </a>
   <div class="rakuten-widget-info">
-    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdogparadise%2F8133690054908%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">【要エントリー!5/15限定最大100％Pバック+さらにP5倍】アーテミス アガリクスI/S 小粒 3kg ドッグ ドッ...</a>
-    <p class="rakuten-widget-price">価格：5,720円（税込）</p>
-    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdogparadise%2F8133690054908%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" class="rakuten-buy-btn">楽天で購入</a>
+    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-sakurasow%2F10000769%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">【20日限定エントリー＆抽選でP100％＋クーポン】【アウトレット賞味期限印字不良】アカナ　シニアレシピ　11.4kg【...</a>
+    <p class="rakuten-widget-price">価格：16,516円（税込）</p>
+    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-sakurasow%2F10000769%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" class="rakuten-buy-btn">楽天で購入</a>
   </div>
 </div>
 <p class="cta-note">※ 楽天市場へのリンクです（アフィリエイト）</p>
+

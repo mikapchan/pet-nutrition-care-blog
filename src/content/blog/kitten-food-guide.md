@@ -115,13 +115,14 @@ heroImage: '/images/kitten-food-hero.png'
 </div>
 
 <div class="rakuten-widget">
-  <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcat-land%2F9214398%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
-    <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/cat-land/cabinet/logo/9214398_e-net.jpg?_ex=128x128" alt="[店内ほぼ全品ポイントUP★ ※15日20時〜6H限定]ロイヤルカナン キトン プレミアムフード ドライ ドライフード ...">
+  <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbest-c-p%2F6833%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
+    <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/best-c-p/cabinet/03036158/06367645/6833.jpg?_ex=128x128" alt="Orijenカナダ産 オリジナル　キャット　5.4Kg (全ライフステージ）【オリジンジャパン、オリジンフード、オリジン...">
   </a>
   <div class="rakuten-widget-info">
-    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcat-land%2F9214398%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">[店内ほぼ全品ポイントUP★ ※15日20時〜6H限定]ロイヤルカナン キトン プレミアムフード ドライ ドライフード ...</a>
-    <p class="rakuten-widget-price">価格：4,007円（税込）</p>
-    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcat-land%2F9214398%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" class="rakuten-buy-btn">楽天で購入</a>
+    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbest-c-p%2F6833%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">Orijenカナダ産 オリジナル　キャット　5.4Kg (全ライフステージ）【オリジンジャパン、オリジンフード、オリジン...</a>
+    <p class="rakuten-widget-price">価格：20,900円（税込）</p>
+    <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbest-c-p%2F6833%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener" class="rakuten-buy-btn">楽天で購入</a>
   </div>
 </div>
 <p class="cta-note">※ 楽天市場へのリンクです（アフィリエイト）</p>
+
