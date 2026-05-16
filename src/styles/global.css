@@ -233,3 +233,59 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+/* ===== 楽天アフィリエイトウィジェット ===== */
+.rakuten-widget {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid #95a5a6;
+  border-radius: .75rem;
+  background: #fff;
+  padding: 12px;
+  margin: 1.5rem 0 0.3rem;
+  max-width: 520px;
+  align-items: flex-start;
+}
+.rakuten-widget img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+.rakuten-widget-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+}
+.rakuten-widget-info a {
+  font-size: 0.85rem;
+  color: #333;
+  text-decoration: none;
+  line-height: 1.4;
+}
+.rakuten-widget-info a:hover { text-decoration: underline; }
+.rakuten-widget-price {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0;
+}
+.rakuten-buy-btn {
+  display: inline-block !important;
+  background: #bf0000;
+  color: #fff !important;
+  font-size: 0.82rem !important;
+  font-weight: bold;
+  padding: 6px 16px;
+  border-radius: 16px;
+  text-decoration: none !important;
+  text-align: center;
+  width: fit-content;
+  margin-top: 4px;
+}
+.rakuten-buy-btn:hover { background: #990000; }
+@media (max-width: 520px) {
+  .rakuten-widget { flex-direction: column; }
+  .rakuten-widget img { width: 100%; height: auto; }
+}
