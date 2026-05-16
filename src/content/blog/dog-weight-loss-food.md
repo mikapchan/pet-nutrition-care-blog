@@ -106,11 +106,6 @@ heroImage: '/images/dog-weight-loss-hero.png'
 5. 食事制限と合わせて適度な運動（散歩時間を少し延ばすだけでもOK）
 </div>
 
-
-<div class="cta-wrap">
-<a href="https://hb.afl.rakuten.co.jp/ichiba/53da4e89.f881d0fc.53da4e8a.86d1f7b1/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E7%258A%25AC%2520%25E3%2583%2580%25E3%2582%25A4%25E3%2582%25A8%25E3%2583%2583%25E3%2583%2588%2520%25E3%2583%2589%25E3%2583%2583%25E3%2582%25B0%25E3%2583%2595%25E3%2583%25BC%25E3%2583%2589%2F" class="cta-btn" target="_blank" rel="noopener">ダイエットフードを楽天で探す →</a>
-<p class="cta-note">※ 楽天市場へのリンクです（アフィリエイト）</p>
-</div>
 健康的な体重管理は愛犬の寿命を延ばします。焦らず、楽しみながら取り組んでみてください🐾
 
 <div class="rakuten-widget">

@@ -102,11 +102,6 @@ heroImage: '/images/kitten-food-hero.png'
 5. 1歳を目安に成猫フードへ徐々に切り替える
 </div>
 
-
-<div class="cta-wrap">
-<a href="https://hb.afl.rakuten.co.jp/ichiba/53da4e89.f881d0fc.53da4e8a.86d1f7b1/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E5%25AD%2590%25E7%258C%25AB%2520%25E3%2582%25AD%25E3%2583%25A3%25E3%2583%2583%25E3%2583%2588%25E3%2583%2595%25E3%2583%25BC%25E3%2583%2589%2F" class="cta-btn" target="_blank" rel="noopener">キトンフードを楽天で探す →</a>
-<p class="cta-note">※ 楽天市場へのリンクです（アフィリエイト）</p>
-</div>
 子猫の成長はあっという間。毎日の食事で健やかな体を作ってあげましょう🐱
 
 <div class="rakuten-widget">

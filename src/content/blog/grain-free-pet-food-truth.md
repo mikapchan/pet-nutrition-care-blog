@@ -87,12 +87,6 @@ heroImage: '/images/grain-free-hero.png'
 </div>
 
 フード選びに迷ったときは、流行や広告に惑わされず、愛犬・愛猫の健康状態に合った選択をしてください。疑問があれば[お問い合わせ](/contact)からご相談ください🐾
-
-<div class="cta-wrap">
-<a href="https://hb.afl.rakuten.co.jp/ichiba/53da4e89.f881d0fc.53da4e8a.86d1f7b1/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25B0%25E3%2583%25AC%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2595%25E3%2583%25AA%25E3%2583%25BC%2520%25E3%2583%2589%25E3%2583%2583%25E3%2582%25B0%25E3%2583%2595%25E3%2583%25BC%25E3%2583%2589%2F" class="cta-btn" target="_blank" rel="noopener">グレインフリーフードを楽天で探す →</a>
-<p class="cta-note">※ 楽天市場へのリンクです（アフィリエイト）</p>
-</div>
-
 <div class="rakuten-widget">
   <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Fnb_spv_5%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
     <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/albiot/cabinet/nb_new/nb-d-dry/nnb-d-shika-repk.jpg?_ex=128x128" alt="ナチュラルバランス LID RESERVE スイートポテト＆鹿肉レシピ ドッグフード ドライフード （旧スウィートポテト...">
