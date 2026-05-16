@@ -95,6 +95,17 @@ heroImage: '/images/cat-weight-hero.png'
 
 猫のダイエットは長期戦です。焦らず、愛猫のペースに合わせて進めてあげてください🐱
 
+<div class="reference-box">
+<span class="box-title">📚 参考文献・情報源</span>
+<ul>
+<li>アニコム損保「家庭どうぶつ白書」最新版／国内における猫の過体重・肥満の割合に関する統計データ</li>
+<li>Fettman MJ et al.「Effects of neutering on bodyweight, metabolic rate and glucose tolerance of domestic cats」Res Vet Sci 62(2):131-136, 1997年／去勢・避妊手術後の代謝低下（約20〜25%）の根拠</li>
+<li>Butterwick RF & Markwell PJ.「Effect of amount and type of dietary fiber on food intake in energy-restricted cats」Am J Vet Res 58(3):272-276, 1997年／猫のダイエットにおける安全な減量ペースの根拠</li>
+<li>Center SA et al.「Feline hepatic lipidosis」Vet Clin North Am Small Anim Pract 23(2):357-389, 1993年／急激な食事制限による肝リピドーシス（脂肪肝）リスクの根拠</li>
+<li>WSAVA（世界小動物獣医師会）「Global Nutrition Guidelines」／BCS（ボディコンディションスコア）9点スケールの基準</li>
+</ul>
+</div>
+
 <div class="rakuten-widget">
   <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdog-kan%2F9217201%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
     <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/dog-kan/cabinet/hills/20hills2026/9217201.jpg?_ex=128x128" alt="【20％クーポン対象！9日〜20日】ストルバイト 猫 療法食 ヒルズ c/d マルチケア チキン 4kg 尿ケア 猫用 ...">

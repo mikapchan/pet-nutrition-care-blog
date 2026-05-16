@@ -87,6 +87,16 @@ FDA調査との関係：
 </div>
 
 フード選びに迷ったときは、流行や広告に惑わされず、愛犬・愛猫の健康状態に合った選択をしてください。疑問があれば[お問い合わせ](/contact)からご相談ください🐾
+<div class="reference-box">
+<span class="box-title">📚 参考文献・情報源</span>
+<ul>
+<li>FDA（米国食品医薬品局）「Investigation into Potential Link Between Certain Diets and Canine Dilated Cardiomyopathy」2019年7月12日公表／グレインフリーフードと犬の拡張型心筋症（DCM）に関する調査報告</li>
+<li>Axelsson E et al.「The genomic signature of dog domestication reveals adaptation to a starch-rich diet」Nature Genetics 45(3):276-281, 2013年／犬が人間との共生の中でアミラーゼ遺伝子を増加させ穀物を消化できるよう進化した根拠</li>
+<li>Verlinden A et al.「Food hypersensitivity reactions in dogs and cats: an overview」Crit Rev Food Sci Nutr 46(3):259-273, 2006年／犬のアレルギー原因は穀物よりも牛肉・乳製品などタンパク質が多いことを示したレビュー</li>
+<li>Freeman LM et al.「Diet-associated dilated cardiomyopathy in dogs: what do we know?」JAVMA 253(11):1390-1394, 2018年／グレインフリーと犬の心臓病の関連性の現時点での評価をまとめた論文</li>
+</ul>
+</div>
+
 <div class="rakuten-widget">
   <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Fnb_spv_5%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
     <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/albiot/cabinet/nb_new/nb-d-dry/nnb-d-shika-repk.jpg?_ex=128x128" alt="ナチュラルバランス LID RESERVE スイートポテト＆鹿肉レシピ ドッグフード ドライフード （旧スウィートポテト...">

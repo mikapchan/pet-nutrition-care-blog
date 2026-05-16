@@ -104,6 +104,16 @@ heroImage: '/images/kitten-food-hero.png'
 
 子猫の成長はあっという間。毎日の食事で健やかな体を作ってあげましょう🐱
 
+<div class="reference-box">
+<span class="box-title">📚 参考文献・情報源</span>
+<ul>
+<li>AAFCO（米国飼料検査官協会）「Cat Food Nutrient Profiles」最新版／子猫（成長期）の粗タンパク質最低基準30.0%（ドライマター換算）・カルシウム・リン基準の根拠</li>
+<li>NRC「Nutrient Requirements of Dogs and Cats」2006年／Ca:P比（1〜2:1）・DHA・タウリン・アラキドン酸の推奨量と必須栄養素としての根拠</li>
+<li>Pion PD, Kittleson MD, Rogers QR, Morris JG.「Myocardial failure in cats associated with low plasma taurine: a reversible cardiomyopathy」Science 237(4816):764-768, 1987年／タウリン欠乏と猫の心筋症・失明の関連を初めて示した報告</li>
+<li>Bauer JE.「Therapeutic use of fish oils in companion animals」JAVMA 239(11):1441-1451, 2011年／子猫の脳・神経・視力発達に対するDHAの重要性と根拠</li>
+</ul>
+</div>
+
 <div class="rakuten-widget">
   <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcat-land%2F9214398%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
     <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/cat-land/cabinet/logo/9214398_e-net.jpg?_ex=128x128" alt="[店内ほぼ全品ポイントUP★ ※15日20時〜6H限定]ロイヤルカナン キトン プレミアムフード ドライ ドライフード ...">

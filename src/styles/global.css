@@ -289,3 +289,29 @@ hr {
   .rakuten-widget { flex-direction: column; }
   .rakuten-widget img { width: 100%; height: auto; }
 }
+
+/* ===== 参考文献ボックス ===== */
+.reference-box {
+  background: #f0f4f8;
+  border-left: 4px solid #5b7fa6;
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.2rem;
+  margin: 1.5rem 0;
+  font-size: 0.88rem;
+}
+.reference-box .box-title {
+  font-weight: bold;
+  color: #3d5a7a;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-size: 0.95rem;
+}
+.reference-box ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.reference-box li {
+  margin-bottom: 0.35rem;
+  line-height: 1.6;
+  color: #444;
+}

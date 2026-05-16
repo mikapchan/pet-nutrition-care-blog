@@ -108,6 +108,16 @@ RER（安静時エネルギー必要量） = 70 × 体重（kg）^0.75
 
 健康的な体重管理は愛犬の寿命を延ばします。焦らず、楽しみながら取り組んでみてください🐾
 
+<div class="reference-box">
+<span class="box-title">📚 参考文献・情報源</span>
+<ul>
+<li>アニコム損保「家庭どうぶつ白書」最新版／国内における犬の過体重・肥満の割合（約30〜40%）に関する統計データ</li>
+<li>NRC（米国国立研究評議会）「Nutrient Requirements of Dogs and Cats」2006年／安静時エネルギー必要量（RER）の計算式：RER = 70 × 体重(kg)^0.75 の根拠</li>
+<li>German AJ.「The growing problem of obesity in dogs and cats」J Nutr 136(7 Suppl):1940S-1946S, 2006年／犬の肥満が関節炎・糖尿病・心疾患などに直結することを示した総説</li>
+<li>Toll PW et al.「Obesity」in Hand MS et al. eds.「Small Animal Clinical Nutrition」5th ed., Mark Morris Institute, 2010年／ダイエット係数（RER×1.0〜1.2）・体重管理プロトコルの根拠</li>
+</ul>
+</div>
+
 <div class="rakuten-widget">
   <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falbiot%2Fnh_fl_2%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
     <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/albiot/cabinet/n_nh/renew2024/nh-rgmschi-pkimgre.jpg?_ex=128x128" alt="ナチュラルハーベスト レジーム スモール [チキン] (標準粒＝中粒) ドッグフード 犬 ドライフード">

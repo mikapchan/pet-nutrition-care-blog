@@ -124,6 +124,16 @@ heroImage: '/images/senior-dog-food-hero.png'
 
 大切な家族の一員であるシニア犬に、その年齢と健康状態に合ったフードを選んであげましょう。疑問があればお気軽に[お問い合わせ](/contact)ください。🐾
 
+<div class="reference-box">
+<span class="box-title">📚 参考文献・情報源</span>
+<ul>
+<li>Laflamme DP & Hannah SS.「Discrepancy between use of lean body mass or nitrogen balance to determine protein requirements of adult cats」J Feline Med Surg 7(3):169-174, 2005年（犬・猫のシニア期タンパク質必要量に関する研究）／「シニア犬はタンパク質を減らすべき」という旧来の考え方が誤りとされる根拠</li>
+<li>McCarthy G et al.「Randomised double-blind, positive-controlled trial to assess the efficacy of glucosamine/chondroitin sulfate for the treatment of dogs with osteoarthritis」Vet J 174(1):54-61, 2007年／グルコサミン・コンドロイチンの犬の関節炎への有効性を示したランダム化比較試験</li>
+<li>Roush JK et al.「Evaluation of the effects of dietary supplementation with fish oil omega-3 fatty acids on weight bearing in dogs with osteoarthritis」JAVMA 236(1):67-73, 2010年／オメガ3脂肪酸（EPA・DHA）による関節炎症軽減効果の研究</li>
+<li>AAFCO（米国飼料検査官協会）「Dog Food Nutrient Profiles」最新版／シニア犬フードの栄養基準・AAFCO適合表示の根拠</li>
+</ul>
+</div>
+
 <div class="rakuten-widget">
   <a href="https://hb.afl.rakuten.co.jp/ichiba/53da63d5.bbcdbc0a.53da63d6.d4debe9d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdogparadise%2F8133690054908%2F%3Frafcid%3Dwsc_i_is_c0fb81b9-da10-448f-b9c2-806ea584d4a5&link_type=picttext" target="_blank" rel="nofollow sponsored noopener">
     <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/dogparadise/cabinet/ad_cart/math/01/8133690054908.jpg?_ex=128x128" alt="【要エントリー!5/15限定最大100％Pバック+さらにP5倍】アーテミス アガリクスI/S 小粒 3kg ドッグ ドッ...">
