@@ -9,6 +9,33 @@ import { getCollection } from 'astro:content';
 const posts = (await getCollection('blog'))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 3);
+
+const categories = [
+  {
+    title: '犬のフード選び',
+    desc: '原材料・成分・グレード別に徹底解説',
+    img: '/images/dog-food-ingredients-hero.png',
+    href: '/blog/dog-food-ingredients-guide/',
+  },
+  {
+    title: '猫のフード選び',
+    desc: 'キャットフードの選び方と注意点',
+    img: '/images/cat-food-hero.png',
+    href: '/blog/cat-food-ingredients-guide/',
+  },
+  {
+    title: 'シニア犬・猫の食事',
+    desc: '年齢に合わせた栄養管理とフード選び',
+    img: '/images/senior-dog-food-hero.png',
+    href: '/blog/dog-senior-food-guide/',
+  },
+  {
+    title: 'アレルギー・療法食',
+    desc: '食物アレルギーに対応したフードの見つけ方',
+    img: '/images/dog-allergy-hero.png',
+    href: '/blog/dog-allergy-food/',
+  },
+];
 ---
 
 <!doctype html>
@@ -20,43 +47,55 @@ const posts = (await getCollection('blog'))
     <Header />
     <main>
 
-      <!-- ヒーローセクション -->
+      <!-- ===== HERO ===== -->
       <section class="hero">
-        <div class="hero-badge">🐾 ペット栄養アドバイザー ミカ の専門ブログ</div>
-        <h1>愛犬・愛猫の食事と健康を<br>正しい知識でサポート</h1>
-        <p class="hero-sub">
-          ドッグフード・キャットフードの選び方から療法食・栄養管理まで、<br>
-          専門的な視点からわかりやすく解説します。
-        </p>
-        <div class="hero-actions">
-          <a href="/blog" class="btn-primary">記事を読む →</a>
-          <a href="/about" class="btn-secondary">このブログについて</a>
-        </div>
-      </section>
-
-      <!-- このブログでわかること -->
-      <section class="features">
-        <h2 class="section-title">このブログでわかること</h2>
-        <div class="feature-grid">
-          <div class="feature-card">
-            <span class="feature-icon">🍖</span>
-            <h3>フードの選び方</h3>
-            <p>原材料表示の読み方や成分の見極め方を解説</p>
-          </div>
-          <div class="feature-card">
-            <span class="feature-icon">🏥</span>
-            <h3>療法食・病気別食事管理</h3>
-            <p>腎臓病・糖尿病・アレルギーなど病気に合わせた食事</p>
-          </div>
-          <div class="feature-card">
-            <span class="feature-icon">⚖️</span>
-            <h3>栄養バランス</h3>
-            <p>年齢・体型・健康状態に合った栄養管理の方法</p>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="hero-eyebrow">🐾 ペット栄養アドバイザー ミカ の専門ブログ</p>
+          <h1>愛犬・愛猫の食事と健康を<br>正しい知識でサポート</h1>
+          <p class="hero-sub">
+            フード選びの悩みに、専門的な視点からわかりやすく答えます。<br>
+            根拠のある情報だけを、正直にお伝えします。
+          </p>
+          <div class="hero-actions">
+            <a href="/blog" class="btn-primary">記事を読む →</a>
+            <a href="/about" class="btn-outline">このブログについて</a>
           </div>
         </div>
       </section>
 
-      <!-- 最新記事 -->
+      <!-- ===== TRUST BAR ===== -->
+      <div class="trust-bar">
+        <span>📝 全13記事</span>
+        <span class="sep">|</span>
+        <span>🐕 犬・🐈 猫どちらも対応</span>
+        <span class="sep">|</span>
+        <span>📚 AAFCO・NRC基準に基づく解説</span>
+        <span class="sep">|</span>
+        <span>🔬 参考文献・エビデンス掲載</span>
+      </div>
+
+      <!-- ===== カテゴリー ===== -->
+      <section class="categories">
+        <h2 class="section-title">カテゴリーから探す</h2>
+        <div class="category-grid">
+          {categories.map((cat) => (
+            <a href={cat.href} class="category-card">
+              <div class="category-img">
+                <img src={cat.img} alt={cat.title} />
+                <div class="category-img-overlay"></div>
+              </div>
+              <div class="category-body">
+                <h3>{cat.title}</h3>
+                <p>{cat.desc}</p>
+                <span class="category-link">詳しく読む →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <!-- ===== 最新記事 ===== -->
       <section class="recent-posts">
         <div class="section-header">
           <h2 class="section-title">最新記事</h2>
@@ -81,50 +120,79 @@ const posts = (await getCollection('blog'))
         </div>
       </section>
 
-      <!-- お問い合わせCTA -->
-      <section class="contact-cta">
-        <div class="contact-cta-inner">
-          <span class="cta-icon">💌</span>
-          <h2>ご質問・フードのご相談はお気軽に</h2>
-          <p>「うちの子に合うフードは？」「この成分って大丈夫？」など、どんな質問でも歓迎です。</p>
-          <a href="/contact" class="btn-primary">お問い合わせ</a>
+      <!-- ===== 著者プロフィール ===== -->
+      <section class="author-section">
+        <div class="author-card">
+          <div class="author-avatar">🐾</div>
+          <div class="author-info">
+            <p class="author-label">このブログの著者</p>
+            <h2 class="author-name">ミカ</h2>
+            <p class="author-title">ペット栄養アドバイザー</p>
+            <p class="author-bio">
+              愛犬の療法食選びで何度も失敗した経験から栄養学を学び直し、AAFCO・NRC基準や最新の研究論文をもとにした正確な情報を発信しています。「難しいことをわかりやすく、根拠のある情報だけを」をモットーにしています。
+            </p>
+            <a href="/about" class="btn-text">プロフィールを読む →</a>
+          </div>
         </div>
       </section>
 
     </main>
 
     <style>
-      /* ===== ヒーロー ===== */
+      /* ===== HERO ===== */
       .hero {
-        text-align: center;
-        padding: 4rem 1.5rem 3.5rem;
-        background: linear-gradient(135deg, #f0f9f0 0%, #eaf5fd 100%);
+        position: relative;
+        min-height: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border-radius: 16px;
-        margin: 1.5rem 0 3rem;
+        overflow: hidden;
+        margin: 1.5rem 0 0;
+        background-image: url('/images/dog-food-hero.png');
+        background-size: cover;
+        background-position: center top;
       }
-      .hero-badge {
+      .hero-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          135deg,
+          rgba(15, 40, 20, 0.72) 0%,
+          rgba(10, 30, 40, 0.65) 100%
+        );
+      }
+      .hero-content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        padding: 3.5rem 1.5rem;
+        max-width: 620px;
+      }
+      .hero-eyebrow {
         display: inline-block;
-        background: rgba(74, 155, 111, 0.12);
-        color: #3a7d58;
-        font-size: 0.85rem;
+        background: rgba(255, 255, 255, 0.15);
+        color: rgba(255, 255, 255, 0.92);
+        font-size: 0.82rem;
         font-weight: 600;
-        padding: 0.35rem 1rem;
+        padding: 0.3rem 1rem;
         border-radius: 999px;
         margin-bottom: 1.2rem;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.03em;
+        border: 1px solid rgba(255,255,255,0.25);
       }
-      .hero h1 {
-        font-size: 2rem;
+      .hero-content h1 {
+        font-size: 2.1rem;
         line-height: 1.45;
-        margin: 0 0 1.1rem;
-        color: #1a2e1a;
+        color: #ffffff;
+        margin: 0 0 1rem;
+        text-shadow: 0 2px 12px rgba(0,0,0,0.3);
       }
       .hero-sub {
-        color: #555;
-        line-height: 1.8;
-        max-width: 520px;
-        margin: 0 auto 2rem;
-        font-size: 0.97rem;
+        color: rgba(255, 255, 255, 0.88);
+        line-height: 1.85;
+        font-size: 0.95rem;
+        margin: 0 0 2rem;
       }
       .hero-actions {
         display: flex;
@@ -132,44 +200,54 @@ const posts = (await getCollection('blog'))
         justify-content: center;
         flex-wrap: wrap;
       }
-
-      /* ===== ボタン ===== */
       .btn-primary {
         display: inline-block;
         background: #4a9b6f;
         color: white !important;
-        padding: 0.75rem 2rem;
+        padding: 0.8rem 2rem;
         border-radius: 8px;
         text-decoration: none !important;
         font-weight: bold;
         font-size: 0.95rem;
         transition: background 0.2s, transform 0.1s;
-        box-shadow: 0 2px 8px rgba(74, 155, 111, 0.3);
+        box-shadow: 0 3px 12px rgba(74, 155, 111, 0.4);
       }
-      .btn-primary:hover {
-        background: #3a7d58;
-        transform: translateY(-1px);
-      }
-      .btn-secondary {
+      .btn-primary:hover { background: #3a7d58; transform: translateY(-1px); }
+      .btn-outline {
         display: inline-block;
-        background: white;
-        color: #4a9b6f !important;
-        padding: 0.75rem 2rem;
+        background: transparent;
+        color: white !important;
+        padding: 0.8rem 2rem;
         border-radius: 8px;
         text-decoration: none !important;
         font-weight: bold;
         font-size: 0.95rem;
-        border: 2px solid #4a9b6f;
-        transition: background 0.2s, color 0.2s;
+        border: 2px solid rgba(255,255,255,0.7);
+        transition: background 0.2s;
       }
-      .btn-secondary:hover {
-        background: #f0faf4;
-      }
+      .btn-outline:hover { background: rgba(255,255,255,0.12); }
 
-      /* ===== セクション共通 ===== */
+      /* ===== TRUST BAR ===== */
+      .trust-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.6rem 1rem;
+        background: #f0faf4;
+        border: 1px solid #c8e6d5;
+        border-radius: 10px;
+        padding: 0.85rem 1.5rem;
+        margin: 1.2rem 0 3rem;
+        font-size: 0.82rem;
+        color: #3a5a40;
+        font-weight: 500;
+      }
+      .trust-bar .sep { color: #c8e6d5; }
+
+      /* ===== SECTION TITLE ===== */
       .section-title {
-        text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.35rem;
         color: #1a2e1a;
         margin-bottom: 1.5rem;
         position: relative;
@@ -178,64 +256,92 @@ const posts = (await getCollection('blog'))
       .section-title::after {
         content: '';
         display: block;
-        width: 40px;
+        width: 36px;
         height: 3px;
         background: #4a9b6f;
-        margin: 0.5rem auto 0;
+        margin-top: 0.5rem;
         border-radius: 999px;
       }
 
-      /* ===== フィーチャーカード ===== */
-      .features {
-        padding: 1rem 0 3rem;
+      /* ===== CATEGORIES ===== */
+      .categories {
+        margin-bottom: 3.5rem;
       }
-      .feature-grid {
+      .category-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
         gap: 1.2rem;
       }
-      .feature-card {
+      .category-card {
         background: white;
+        border-radius: 14px;
+        overflow: hidden;
+        text-decoration: none !important;
+        color: inherit;
         border: 1px solid #e4ede9;
-        border-radius: 12px;
-        padding: 1.6rem 1.4rem;
-        text-align: center;
         transition: box-shadow 0.2s, transform 0.2s;
+        display: flex;
+        flex-direction: column;
       }
-      .feature-card:hover {
-        box-shadow: 0 4px 16px rgba(74, 155, 111, 0.12);
-        transform: translateY(-2px);
+      .category-card:hover {
+        box-shadow: 0 8px 28px rgba(74, 155, 111, 0.16);
+        transform: translateY(-3px);
       }
-      .feature-icon { font-size: 2.2em; }
-      .feature-card h3 {
-        margin: 0.8rem 0 0.5rem;
+      .category-img {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 16/9;
+        overflow: hidden;
+      }
+      .category-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0;
+        display: block;
+        transition: transform 0.3s;
+      }
+      .category-card:hover .category-img img {
+        transform: scale(1.04);
+      }
+      .category-img-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to top, rgba(15,40,20,0.3) 0%, transparent 60%);
+      }
+      .category-body {
+        padding: 1.1rem 1.2rem 1.3rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .category-body h3 {
         font-size: 1rem;
         color: #1a2e1a;
+        margin: 0 0 0.4rem;
       }
-      .feature-card p {
+      .category-body p {
+        font-size: 0.85rem;
         color: #666;
         line-height: 1.6;
-        margin: 0;
-        font-size: 0.9rem;
+        margin: 0 0 0.8rem;
+        flex: 1;
+      }
+      .category-link {
+        font-size: 0.85rem;
+        color: #4a9b6f;
+        font-weight: 600;
       }
 
       /* ===== 最新記事 ===== */
-      .recent-posts {
-        padding: 1rem 0 3rem;
-      }
+      .recent-posts { margin-bottom: 3.5rem; }
       .section-header {
         display: flex;
         align-items: baseline;
         justify-content: space-between;
         margin-bottom: 1.5rem;
       }
-      .section-header .section-title {
-        margin-bottom: 0;
-        text-align: left;
-      }
-      .section-header .section-title::after {
-        margin: 0.5rem 0 0;
-      }
+      .section-header .section-title { margin-bottom: 0; }
       .view-all {
         font-size: 0.88rem;
         color: #4a9b6f;
@@ -252,7 +358,7 @@ const posts = (await getCollection('blog'))
       .post-card {
         background: white;
         border: 1px solid #e4ede9;
-        border-radius: 12px;
+        border-radius: 14px;
         overflow: hidden;
         text-decoration: none !important;
         color: inherit;
@@ -261,7 +367,7 @@ const posts = (await getCollection('blog'))
         flex-direction: column;
       }
       .post-card:hover {
-        box-shadow: 0 6px 20px rgba(74, 155, 111, 0.14);
+        box-shadow: 0 6px 22px rgba(74, 155, 111, 0.15);
         transform: translateY(-3px);
       }
       .post-thumb {
@@ -276,7 +382,9 @@ const posts = (await getCollection('blog'))
         object-fit: cover;
         border-radius: 0;
         display: block;
+        transition: transform 0.3s;
       }
+      .post-card:hover .post-thumb img { transform: scale(1.04); }
       .post-body {
         padding: 1.1rem 1.2rem 1.3rem;
         flex: 1;
@@ -284,18 +392,18 @@ const posts = (await getCollection('blog'))
         flex-direction: column;
       }
       .post-date {
-        font-size: 0.8rem;
-        color: #888;
+        font-size: 0.78rem;
+        color: #999;
         margin: 0 0 0.4rem;
       }
       .post-body h3 {
-        font-size: 0.97rem;
+        font-size: 0.95rem;
         color: #1a2e1a;
         margin: 0 0 0.6rem;
-        line-height: 1.5;
+        line-height: 1.55;
       }
       .post-desc {
-        font-size: 0.85rem;
+        font-size: 0.83rem;
         color: #666;
         line-height: 1.6;
         margin: 0 0 0.8rem;
@@ -306,40 +414,81 @@ const posts = (await getCollection('blog'))
         overflow: hidden;
       }
       .post-link {
-        font-size: 0.85rem;
+        font-size: 0.83rem;
         color: #4a9b6f;
         font-weight: 600;
       }
 
-      /* ===== お問い合わせCTA ===== */
-      .contact-cta {
-        padding: 0 0 2rem;
-      }
-      .contact-cta-inner {
-        background: linear-gradient(135deg, #f0faf4 0%, #eaf5fd 100%);
-        border: 1px solid #c8e6d5;
+      /* ===== 著者プロフィール ===== */
+      .author-section { margin-bottom: 3rem; }
+      .author-card {
+        display: flex;
+        gap: 2rem;
+        align-items: flex-start;
+        background: white;
+        border: 1px solid #e4ede9;
         border-radius: 16px;
-        padding: 2.5rem 2rem;
-        text-align: center;
+        padding: 2rem 2.2rem;
+        box-shadow: 0 2px 12px rgba(74,155,111,0.07);
       }
-      .cta-icon { font-size: 2rem; display: block; margin-bottom: 0.8rem; }
-      .contact-cta-inner h2 {
-        font-size: 1.25rem;
+      .author-avatar {
+        font-size: 3.5rem;
+        flex-shrink: 0;
+        width: 80px;
+        height: 80px;
+        background: #f0faf4;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #c8e6d5;
+      }
+      .author-label {
+        font-size: 0.78rem;
+        color: #4a9b6f;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin: 0 0 0.2rem;
+      }
+      .author-name {
+        font-size: 1.3rem;
         color: #1a2e1a;
-        margin: 0 0 0.7rem;
+        margin: 0 0 0.1rem;
       }
-      .contact-cta-inner p {
+      .author-title {
+        font-size: 0.85rem;
+        color: #888;
+        margin: 0 0 0.8rem;
+      }
+      .author-bio {
+        font-size: 0.9rem;
         color: #555;
-        margin: 0 0 1.5rem;
-        font-size: 0.95rem;
+        line-height: 1.75;
+        margin: 0 0 1rem;
       }
+      .btn-text {
+        font-size: 0.88rem;
+        color: #4a9b6f;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .btn-text:hover { text-decoration: underline; }
 
       /* ===== レスポンシブ ===== */
       @media (max-width: 720px) {
-        .hero h1 { font-size: 1.5rem; }
+        .hero { min-height: 380px; }
+        .hero-content h1 { font-size: 1.55rem; }
         .hero-sub br { display: none; }
+        .trust-bar { font-size: 0.78rem; gap: 0.4rem 0.8rem; }
+        .trust-bar .sep { display: none; }
+        .category-grid { grid-template-columns: repeat(2, 1fr); gap: 0.8rem; }
         .post-grid { grid-template-columns: 1fr; }
+        .author-card { flex-direction: column; gap: 1.2rem; padding: 1.5rem; }
         .section-header { flex-direction: column; gap: 0.5rem; }
+      }
+      @media (max-width: 420px) {
+        .category-grid { grid-template-columns: 1fr; }
       }
     </style>
 

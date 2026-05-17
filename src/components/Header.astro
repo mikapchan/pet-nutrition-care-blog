@@ -4,55 +4,80 @@ import HeaderLink from './HeaderLink.astro';
 ---
 
 <header>
-	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div class="internal-links">
-			<HeaderLink href="/">ホーム</HeaderLink>
-			<HeaderLink href="/blog">記事一覧</HeaderLink>
-			<HeaderLink href="/about">このブログについて</HeaderLink>
-			<HeaderLink href="/contact" class="contact-link">お問い合わせ</HeaderLink>
-		</div>
-	</nav>
+  <nav>
+    <a href="/" class="site-logo">
+      <span class="logo-icon">🐾</span>
+      <span class="logo-text">{SITE_TITLE}</span>
+    </a>
+    <div class="nav-links">
+      <HeaderLink href="/">ホーム</HeaderLink>
+      <HeaderLink href="/blog">記事一覧</HeaderLink>
+      <HeaderLink href="/about">このブログについて</HeaderLink>
+    </div>
+  </nav>
 </header>
-<style>
-	header {
-		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
-	}
 
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-	}
-	nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
-	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
-		text-decoration: none;
-		font-size: 0.85rem;
-	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: var(--accent);
-	}
-	.social-links,
-	.social-links a {
-		display: flex;
-	}
-	@media (max-width: 720px) {
-		.social-links {
-			display: none;
-		}
-	}
+<style>
+  header {
+    margin: 0;
+    padding: 0 1.5rem;
+    background: white;
+    border-bottom: 1px solid #e8f0eb;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .site-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none !important;
+  }
+  .logo-icon {
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+  .logo-text {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1a2e1a;
+    letter-spacing: -0.01em;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  .nav-links :global(a) {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+    color: #555 !important;
+    text-decoration: none;
+    border-radius: 6px;
+    border-bottom: none !important;
+    transition: background 0.15s, color 0.15s;
+    font-weight: 500;
+  }
+  .nav-links :global(a:hover) {
+    background: #f0faf4;
+    color: #3a7d58 !important;
+  }
+  .nav-links :global(a.active) {
+    color: #4a9b6f !important;
+    background: #f0faf4;
+    border-bottom: none !important;
+  }
+  @media (max-width: 600px) {
+    .nav-links :global(a) { padding: 0.5rem 0.5rem; font-size: 0.8rem; }
+    .logo-text { font-size: 0.9rem; }
+  }
 </style>
